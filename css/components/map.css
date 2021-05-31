@@ -1,0 +1,21 @@
+.map {
+	position: relative;
+	padding-top: 145px;
+	padding-bottom: 115px;
+}
+.map__body {
+	display: flex;
+	position: absolute;
+}
+.map__title {
+	max-width: 348px;
+	text-align: left;
+	margin-right: 102px;
+	line-height: 54px;
+}
+.map__subtitle {
+	max-width: 368px;
+	text-align: left;
+	margin-bottom: 30px;
+	line-height: 36px;
+}

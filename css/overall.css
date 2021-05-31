@@ -1,0 +1,60 @@
+body {
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+	max-width: 1320px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.site-container {
+	overflow: hidden;
+}
+.back-bg {
+	background-image: url("../../img/svg/about-background.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+.text-bold {
+	font-weight: 800;
+}
+.text-green {
+	color: green;
+}
+.button {
+	padding: 25px;
+	font-weight: bold;
+	font-size: calc(15px + 4 * (100vw - 320px) / (1920 - 320));
+	color: #fffbfb;
+	background: #27744d;
+	border-radius: 8px;
+	border: none;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.button:hover {
+	background: #319c67;
+}
+.section-title {
+	font-family: Lora;
+	font-weight: bold;
+	font-size: calc(22px + 14 * (100vw - 320px) / (1920 - 320));
+	text-align: center;
+}
+.section-subtitle {
+	font-size: calc(16px + 8 * (100vw - 320px) / (1920 - 320));
+	text-align: center;
+}
+@media screen and (max-width: 576px) {
+	.button {
+		padding: 18px;
+	}
+}

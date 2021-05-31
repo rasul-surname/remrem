@@ -1,0 +1,40 @@
+.place {
+	padding-bottom: 240px;
+}
+.place__body {
+	position: relative;
+}
+.place__card {
+	width: 480px;
+	height: 491px;
+	background-color: #fffdfd;
+	border: 1px solid #c4c4c4;
+	border-radius: 8px;
+	padding: 57px 50px 50px 82px;
+	position: absolute;
+	top: 89px;
+
+	right: 96px;
+}
+.place__logo {
+	margin-bottom: 23px;
+}
+.place__card-street {
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+.place__card-tel {
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 16px;
+}
+.place__card-mode {
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+	margin-bottom: 49px;
+}
+.place__button {
+	width: 314px;
+}
