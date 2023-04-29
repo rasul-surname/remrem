@@ -64,6 +64,7 @@
 	width: 314px;
 	margin-top: 13px;
 	margin-bottom: 12px;
+	cursor: pointer;
 }
 .support__form-agree {
 	font-size: 12px;

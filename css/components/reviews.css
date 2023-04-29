@@ -50,3 +50,6 @@
 .reviews-slider .swiper-button-next:after {
 	color: #27744d;
 }
+.card__image {
+	cursor: pointer;
+}

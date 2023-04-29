@@ -15,11 +15,13 @@
 }
 .services__column {
 	padding: 0px 25px;
+	cursor: pointer;
 }
 .services__item {
 	position: relative;
 	border-radius: 8px;
 	overflow: hidden;
+
 }
 .services__item-img {
 	display: block;

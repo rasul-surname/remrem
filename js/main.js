@@ -33,10 +33,6 @@ for (let anchor of anchors) {
 
 new Swiper('.swiper-container', {
 	slidesPerView: 'auto',
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
-	},
 	breakpoints: {
 		1024: {
 			slidesPerView: 3,
@@ -49,10 +45,6 @@ new Swiper('.swiper-container', {
 });
 
 new Swiper('.reviews-slider', {
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
-	},
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,

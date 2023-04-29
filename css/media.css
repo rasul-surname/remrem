@@ -102,6 +102,7 @@
 	}
 	.services__column {
 		padding: 0px 10px;
+		cursor: pointer;
 	}
 	.services__item-text {
 		padding: 0px 18px;
